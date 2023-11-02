@@ -30,4 +30,9 @@ const updateTask = async (id, task) => {
   return updatedTask;
 };
 
-module.exports = { getAllTasks, createTask, deleteTask, updateTask };
+module.exports = {
+  getAllTasks,
+  createTask,
+  deleteTask,
+  updateTask
+};

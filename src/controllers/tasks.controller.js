@@ -26,4 +26,9 @@ const updateTask = async (req, res) => {
   return res.status(204).json();
 };
 
-module.exports = { getAllTasks, createTask, deleteTask, updateTask };
+module.exports = {
+  getAllTasks,
+  createTask,
+  deleteTask,
+  updateTask
+};

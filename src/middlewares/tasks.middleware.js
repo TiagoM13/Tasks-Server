@@ -26,4 +26,7 @@ const validateFieldStatus = (req, res, next) => {
   next();
 };
 
-module.exports = { validateFieldTitle, validateFieldStatus };
+module.exports = {
+  validateFieldTitle,
+  validateFieldStatus
+};
